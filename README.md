@@ -1,14 +1,21 @@
 # MyApplication3
 
-This repository contains the web project files located in the project root.
+This repository contains the web and layout files for MyApplication3.
 
-Contents:
-- HTML files
-- CSS files
+Main files:
+- `index.html` — site entry
+- `base styles.css` — base styles
+- `style.css` — additional styles
+- `layout structure.css`, `visual structures.css`, `topography styles.css` — layout and typography
+- `mobile breakpoint.css`, `table breakpoint.css` — responsive breakpoints
+- `responsive image.html` — responsive image examples
 
-Usage:
-1. Review files.
-2. Initialize git locally (already performed if requested).
-3. Create a remote GitHub repository and push the commits (optional).
+Quick start
+1. Open `index.html` in a modern browser to preview the site.
+2. Edit the CSS files under the project root to modify styles.
 
-If you want me to create the remote repository and push, tell me the desired GitHub repo name and whether to create it under your GitHub account or an organization. I can use the `gh` CLI or the GitHub API (you will need to provide credentials or run `gh auth login`).
+GitHub
+- To publish: initialize a git repo, commit, and push to a GitHub repository.
+- I can create the remote and push for you if you tell me the repository name and whether it should be public or private.
+
+If you'd like me to proceed: tell me the GitHub repo name, visibility (public/private), and whether to create it under your account or an organization. I can then initialize git here and push if you approve.
